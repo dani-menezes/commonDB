@@ -1,0 +1,11 @@
+﻿INSERT INTO COMMON_USER (NAME, LOGIN, PASSWORD, LOCALE) VALUES (
+	'Administrator',
+	'adm',
+	'adm',
+	'pt'
+);
+
+INSERT INTO role(name) VALUES ('ADMIN');
+INSERT INTO role(name) VALUES ('USER');
+
+INSERT INTO COMMON_user_role (COMMON_USER_ID, ROLE_ID) VALUES (1 , 1);
